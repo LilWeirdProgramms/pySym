@@ -19,7 +19,8 @@ def derivation(y, t):
     """
     needs to be of form: dy/dt = f(y,t)
     In:
-        Initial Conditions for Parameters to be calculated.
+        - Initial Conditions for Parameters to be calculated.
+        - array of times for which to solve
     Returns:
         Derivates of Parameters
     """
